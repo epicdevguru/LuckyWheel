@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb13efaaac80f2d40a18822437b5f291, type: 3}
+  m_Name: SpriteStore
+  m_EditorClassIdentifier: 
+  listWheelSprites:
+  - {fileID: 21300000, guid: 0975bdc4a1660c140bd7c3fb3238d623, type: 3}
+  - {fileID: 21300000, guid: 9863514c298252f4e9e016516cd4e620, type: 3}
+  - {fileID: 21300000, guid: 87c20b98ad054054283b2dc31f7bfe63, type: 3}
+  - {fileID: 21300000, guid: 35267fc8a0d93974f8db6b4862835589, type: 3}
+  - {fileID: 21300000, guid: 7bf5d5954585a66488af7938540248af, type: 3}
+  - {fileID: 21300000, guid: 9863514c298252f4e9e016516cd4e620, type: 3}
+  - {fileID: 21300000, guid: 87c20b98ad054054283b2dc31f7bfe63, type: 3}
+  - {fileID: 21300000, guid: 35267fc8a0d93974f8db6b4862835589, type: 3}
