@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Wheel.unity
+    guid: c18ead12d88c6f246ad3e0a5cb2ff842
   m_configObjects: {}

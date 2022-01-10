@@ -24,6 +24,8 @@ public class WheelItem : MonoBehaviour
 
     #region  private Props
     private int _nItemIndex;
+    private int _nSpriteIndex;
+    private string _description;
     public int ItemIndex
     {
         get { return _nItemIndex; }
@@ -36,33 +38,42 @@ public class WheelItem : MonoBehaviour
         set { _strItemName = value; }
     }
     private RectTransform _rectItem;
+    private WheelHandler _wheelHandler;
     #endregion
 
     #region MonoBehaviour Callbacks
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDestroy()
     {
-        
+        _wheelHandler.OnFocusedItemChanged -= OnFocused;
     }
     #endregion
 
     #region Custom Public Methods
-    public void InitWheelItem (int index, string itemName, Sprite sprite, 
-        string description, float radius, int itemCount)
+    public void InitWheelItem (int index, string itemName, int spriteIndex, Sprite sprite, 
+        string description, float radius, int itemCount, WheelHandler handler)
     {
         _itemSprite.sprite = sprite;
         _txtItemDescription.text = description;
+        _description = description;
         _nItemIndex = index;
         _strItemName = itemName;
         _rectItem = GetComponent<RectTransform>();
         CalculateItemTransform(index, radius, itemCount);
         gameObject.name = itemName;
+        _wheelHandler = handler;
+        _nSpriteIndex = spriteIndex;
+        _wheelHandler.OnFocusedItemChanged += OnFocused;
+    }
+
+    public int GetSpriteIndex()
+    {
+        return _nSpriteIndex;
+    }
+
+    public string GetDescription()
+    {
+        return _description;
     }
     #endregion
 
@@ -76,6 +87,17 @@ public class WheelItem : MonoBehaviour
         Vector3 v3Rotation = new Vector3(0, 0, fAngle - 90f);
         _rectItem.anchoredPosition = v2Position;
         _rectItem.localEulerAngles = v3Rotation;
+    }
+
+    private void OnFocused(int nIndex)
+    {
+        if (nIndex == _nItemIndex)
+        {
+            transform.localScale = 1.2f * Vector3.one;
+        } else
+        {
+            transform.localScale = Vector3.one;
+        }
     }
     #endregion
 }
