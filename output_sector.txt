@@ -1,0 +1,85 @@
+================1/10/2022 3:43:51 AM================
+1 | Life 30 min, drop rate: 20 => 203/1000'
+
+2 | Brush 3x, drop rate: 10 => 106/1000'
+
+3 | Gems 35, drop rate: 10 => 96/1000'
+
+4 | Hammer 3x, drop rate: 10 => 93/1000'
+
+5 | Coins 750, drop rate: 5 => 43/1000'
+
+6 | Brush 1x, drop rate: 20 => 215/1000'
+
+7 | Gems 75, drop rate: 5 => 51/1000'
+
+8 | Hammer 1x, drop rate: 20 => 193/1000'
+
+================1/10/2022 3:43:58 AM================
+1 | Life 30 min, drop rate: 20 => 210/1000'
+
+2 | Brush 3x, drop rate: 10 => 86/1000'
+
+3 | Gems 35, drop rate: 10 => 109/1000'
+
+4 | Hammer 3x, drop rate: 10 => 79/1000'
+
+5 | Coins 750, drop rate: 5 => 51/1000'
+
+6 | Brush 1x, drop rate: 20 => 203/1000'
+
+7 | Gems 75, drop rate: 5 => 56/1000'
+
+8 | Hammer 1x, drop rate: 20 => 206/1000'
+
+================1/10/2022 3:44:02 AM================
+1 | Life 30 min, drop rate: 20 => 220/1000'
+
+2 | Brush 3x, drop rate: 10 => 105/1000'
+
+3 | Gems 35, drop rate: 10 => 110/1000'
+
+4 | Hammer 3x, drop rate: 10 => 106/1000'
+
+5 | Coins 750, drop rate: 5 => 42/1000'
+
+6 | Brush 1x, drop rate: 20 => 206/1000'
+
+7 | Gems 75, drop rate: 5 => 37/1000'
+
+8 | Hammer 1x, drop rate: 20 => 174/1000'
+
+================1/10/2022 3:44:06 AM================
+1 | Life 30 min, drop rate: 20 => 221/1000'
+
+2 | Brush 3x, drop rate: 10 => 100/1000'
+
+3 | Gems 35, drop rate: 10 => 90/1000'
+
+4 | Hammer 3x, drop rate: 10 => 98/1000'
+
+5 | Coins 750, drop rate: 5 => 37/1000'
+
+6 | Brush 1x, drop rate: 20 => 228/1000'
+
+7 | Gems 75, drop rate: 5 => 52/1000'
+
+8 | Hammer 1x, drop rate: 20 => 174/1000'
+
+================1/10/2022 3:44:09 AM================
+1 | Life 30 min, drop rate: 20 => 228/1000'
+
+2 | Brush 3x, drop rate: 10 => 102/1000'
+
+3 | Gems 35, drop rate: 10 => 112/1000'
+
+4 | Hammer 3x, drop rate: 10 => 107/1000'
+
+5 | Coins 750, drop rate: 5 => 38/1000'
+
+6 | Brush 1x, drop rate: 20 => 201/1000'
+
+7 | Gems 75, drop rate: 5 => 48/1000'
+
+8 | Hammer 1x, drop rate: 20 => 164/1000'
+

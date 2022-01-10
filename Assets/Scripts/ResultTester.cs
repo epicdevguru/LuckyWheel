@@ -23,12 +23,6 @@ public class ResultTester : MonoBehaviour
         Initialize();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void TestRounds()
     {
         if (_inptRounds.text == "") return;
@@ -44,6 +38,11 @@ public class ResultTester : MonoBehaviour
             int nResultItem = _wheelHandler.GetTestResult();
             _listTestResult[nResultItem]++;
         }
+        if (_tglFileOutput.isOn)
+        {
+            Write2File("================" + System.DateTime.UtcNow +"================");
+        }
+
         for (int i = 0; i < _listTestResult.Count; i++)
         {
             string strLog = (i+1) + " | " + so_wheelItemContainer.ListWheelItems[i].ItemName +
@@ -51,15 +50,8 @@ public class ResultTester : MonoBehaviour
                 " => " + _listTestResult[i] + "/" + testCount + "'\n";
             Debug.Log(strLog);
             if (_tglFileOutput.isOn)
-            {
-                if (_inptFileOutput.text != "")
-                {
-                    int nSector = int.Parse(_inptFileOutput.text);
-                    if (nSector > 0 && nSector == (i+1))
-                    {
-                        Write2File(nSector, strLog);
-                    } 
-                }
+            {        
+                 Write2File(strLog);
             }
         }
     }
@@ -80,9 +72,9 @@ public class ResultTester : MonoBehaviour
         }
     }
 
-    void Write2File(int nSector, string strResult)
+    void Write2File(string strResult)
     {
-        string path = "output_sector_" + nSector + ".txt";
+        string path = "output_sector" + ".txt";
         StreamWriter writer = new StreamWriter(path, true);
         writer.WriteLine(strResult);
         writer.Close();
