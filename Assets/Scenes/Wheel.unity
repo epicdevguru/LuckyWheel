@@ -626,8 +626,8 @@ MonoBehaviour:
   _transWheel: {fileID: 1539924065}
   _nMinRandomRotation: 2
   _nMaxRandomRotation: 9
-  _fMinRandomSpeed: 360
-  _fMaxRandomSpeed: 1080
+  _fMinRandomSpeed: 240
+  _fMaxRandomSpeed: 800
   _fMinAvoidAmbiguity: 0.2
   _fMaxAvoidAmbiguity: 0.8
   _fResultWaitTime: 2
