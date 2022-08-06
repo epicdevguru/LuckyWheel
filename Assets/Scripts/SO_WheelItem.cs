@@ -4,7 +4,6 @@
  *   It is the scriptable object of the wheel items
  *   It contains the wheel Item info such as sprite index
  *   and text string below the item sprite.
- *- Made By: Toshiyuki Hara
  *- CO-OP: 
  *                    2022-01-08
  * *********************************************************/
