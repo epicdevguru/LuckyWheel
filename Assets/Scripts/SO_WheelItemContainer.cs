@@ -4,7 +4,6 @@
  *   It is the scriptable object that stores the 
  *   wheel item scriptable objects in a list.
  *   In addition it also contains the info related to wheel.
- *- Made By: Toshiyuki Hara
  *- CO-OP: 
  *                    2022-01-08
  * *********************************************************/
