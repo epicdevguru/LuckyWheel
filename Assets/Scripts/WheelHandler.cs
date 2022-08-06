@@ -5,7 +5,6 @@
  *  wheel item controller scriptable object as well and
  *  generate the items on the wheel. 
  *  In addition it also handles the rotating of the wheel, etc.
- *- Made By: Toshiyuki Haras
  *- CO-OP: 
  *                    2022-01-09
  * *********************************************************/
