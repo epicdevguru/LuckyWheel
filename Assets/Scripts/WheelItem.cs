@@ -4,7 +4,6 @@
  *   It is the script for Wheel Item prefab game object.
  *   The wheel controller uses this prefab to add on the
  *   wheel at the beginning.
- *- Made By: Toshiyuki Hara
  *- CO-OP: 
  *                    2022-01-08
  * *********************************************************/
