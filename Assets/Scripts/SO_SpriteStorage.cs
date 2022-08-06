@@ -4,7 +4,6 @@
  *  object that stores the possible sprites in the 
  *  project including wheel items etc for dynamic
  *  wheel generation.
- * - Made By: Toshiyuki Hara
  * - CO-OP: 
  *              2022-01-08
  * *************************************************/
