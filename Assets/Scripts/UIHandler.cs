@@ -3,7 +3,6 @@
  *-Description: UI component handler.
  *  It handles the UI button show as 
  *  well as ui animations handling etc.
- *-Made by: Toshiyuki Hara
  *-CO-OP:
  *           2022/01/10
  * **********************************/
